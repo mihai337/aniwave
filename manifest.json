@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Aniwave anime downloader",
+    "version": "1.1",
+    "description": "Aniwave anime downloader extension",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "downloads"
+    ],
+    "author": "Mihai",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Aniwave Downloader"
+    }
+}
+  

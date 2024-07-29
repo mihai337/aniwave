@@ -1,0 +1,39 @@
+body { font-family: Arial, sans-serif; width: 300px; padding: 20px; }
+button { width: 100%; padding: 10px; margin-top: 10px; }
+
+h1 { text-align: center; }
+
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: darkviolet;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  button:hover {
+    background-color: rgb(103, 32, 173);
+    transform: translateY(-2px);
+  }
+
+  .result {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: #3c3c3c;
+    color: white;
+  }
+  #results {
+    margin-top: 10px;
+}
